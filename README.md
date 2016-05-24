@@ -21,4 +21,4 @@ It is json type object
 |dom|object|required|'dom selector'|dom selector need put image|document.querySelector('img')|
 |d4img|string|no|'image url'|if no image this is default image|'/img/example.png'|
 |img|string|no|'image url'|image url|'/img/example.png'|
-|type|string|no|'cover', 'contain'|object-ft type|'cover'|
+|type|string|no|'cover', 'contain', 'fill'|object-ft type|'cover'|

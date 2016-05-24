@@ -15,6 +15,9 @@
             console.error('not set dom');
             return;
         }
+        if (type === 'fill') {
+            type = '100% 100%';
+        }
         dom.style.backgroundColor = color;
         dom.style.backgroundSize = type;
         if (imgUrl) {

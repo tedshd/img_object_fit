@@ -39,7 +39,8 @@ var JSON_CALLBACK = function(data) {
         imgObjectFit({
             dom: img,
             color: '#f8f8f8',
-            img: d.content.src
+            img: d.content.src,
+            type: 'fill'
         });
         div.appendChild(img);
         h3.innerHTML = d.title.$t;

@@ -12,5 +12,3 @@ function imgObjectFit($url, $class='', $alt='')
     '</span>';
     return $img;
 }
-
-?>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once 'img_object_fit.php'; ?>
 <!DOCTYPE html>
 <html>
@@ -28,7 +28,7 @@ include_once 'img_object_fit.php'; ?>
 </style>
 </head>
 <body>
-<?php echo imgObjectFit('https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png', '', 'Google'); ?>
+<?php echo imgObjectFit('https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png', 'Google'); ?>
 </body>
 </html>
 
